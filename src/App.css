@@ -1,0 +1,14 @@
+.id_cards {
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  background-color: rgb(243, 218, 209);
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}

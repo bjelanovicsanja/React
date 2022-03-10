@@ -1,0 +1,11 @@
+.List {
+  width: 60%;
+  padding: 8px;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  box-shadow: rgba(158, 129, 129, 0.4);
+  background-color: rgba(236, 183, 140, 0.966);
+}

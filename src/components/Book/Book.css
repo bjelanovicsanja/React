@@ -1,0 +1,50 @@
+.Book {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Book .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Satisfy, cursive;
+  color: fade-out(white, 0.8);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(133, 127, 127, 0.8);
+  opacity: 0;
+  color: white;
+}
+
+.Book img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.Book .container:hover {
+  opacity: 1;
+}
+
+.field {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.Book .field span {
+  display: block;
+}
+
+.Book .field em {
+  color: black;
+}
